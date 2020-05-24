@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select /> renders without crash 1`] = `
+<DocumentFragment>
+  <label />
+  <select>
+    <option
+      value="null"
+    >
+      No data available
+    </option>
+  </select>
+</DocumentFragment>
+`;
