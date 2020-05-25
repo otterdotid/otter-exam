@@ -1,0 +1,41 @@
+body {
+    background: #fef1d2;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.select-container {
+    max-width: 200px;
+}
+
+select {
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    appearance: none;
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    padding: 6px 4px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border-color: #ffffff;
+    color: white;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat 95% #feceea;
+}
+
+select:disabled {
+    background: #f0bcda;
+}
+
+
+
+
