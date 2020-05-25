@@ -34,10 +34,11 @@ function App() {
   };
 
   const handleProvince = async (event) => {
+    const valueProvince = event.target.value
     await setIsLoading(true);
-    await setProvince(event.target.value)
+    await setProvince(valueProvince)
 
-    const { data } = await axios.get(url + "/" + event.target.value.id + '/districts')
+    const { data } = await axios.get(`${url}/${valueProvince.id}/districts`)
       .catch(error => alert(error));
 
     setDistricts(data.data.districts);
