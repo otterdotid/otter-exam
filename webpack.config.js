@@ -60,7 +60,7 @@ module.exports = {
     },
     output: {
         filename: '[name].[hash].bundle.js',
-        path: path.resolve('dist'),
+        path: path.resolve('build'),
         publicPath: '/'
     }
 };
