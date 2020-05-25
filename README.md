@@ -1,27 +1,37 @@
-# Otter Fullstack Engineer Test
+# Otter Fullstack Engineer Tes
+Fetching districts based on province with React, Webpack and Babel
 
-Provided locations endpoints:
+## Dependencies
+
+Make sure Node.js and NPM installed on your computer, for check npm or node.js installed in your computer. you can open Windows Shell or Cmd and type node -v (Test Node.Js ) or npm -v (Test NPM), 
+
+This repo used npm v12.13.1 in develop mode,
+
+## Installation
+
+1. Open your terminal based on location project, and run command :
+
+```terminal
+npm install
+```
+
+2. Then, for run the app 
+```terminal
+npm run start
+```
+
+3. open http://localhost:8080/ in your browser
+
+## Compiles and Minifies for Production
+```terminal
+npm run build
+```
+
+for build in mode development
+```terminal
+npm run build-dev
+```
 
 
-* Get provinces: http://34.87.158.65/v1/location/provinces
-* Get district by province id: http://34.87.158.65/v1/location/provinces/{province_id}/districts
 
-Create a simple front end page, written in react JS which load all provinces, and district with behavior:
 
-GIVEN: A user on a web page consists of 2 location dropdown (select option) for: provinces, and district
-
-WHEN: user select a province from a select option (dropdown), i.e: Jakarta
-
-THEN: The second dropdown (district) will list all districts from Jakarta province.
-
-Assessment Criteria:
-
-* Design simplicity: no need to create a fancy UI, please use a simple CSS 
-* Code simplicity (keep it simple and stupid, no layering, no excessive libraries)
-* Coding convention: use a readable and clear naming.
-* Test (will be plus)
-* Dockerized (will be plus)
-
-**Deadline: 26th May 2020, 23.00**
-
-please push your code to branch **features/{your_name}** 
