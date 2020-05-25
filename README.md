@@ -15,6 +15,6 @@ Run application on local
     npm start
 
 Live on
-http://139.180.139.69:8081/
+http://139.180.139.69:8084/
 
 author: anangnovriadi 
